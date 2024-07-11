@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d0379f (curriculum08-1)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
