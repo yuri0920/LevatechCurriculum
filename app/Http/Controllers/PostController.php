@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use App\Models\Categoryt;
+use App\Models\Category;
 use App\Http\Requests\PostRequest;
 
 class PostController extends Controller
@@ -15,7 +15,7 @@ class PostController extends Controller
     
     public function show(Post $post)
     {
-    return view('posts.show')->with(['post' => $post]);
+        return view('posts.show')->with(['post' => $post]);
     }
     
 
